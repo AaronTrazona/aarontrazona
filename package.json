@@ -1,0 +1,34 @@
+{
+  "name": "aarontrazona",
+  "version": "1.8.2",
+  "description": "Contact Information about Aaron Trazona",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "bin": {
+    "elijahmanor": "./index.js"
+  },
+  "files": [
+    "bin/output"
+  ],
+  "scripts": {
+    "postinstall": "node ./index.js",
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronTrazona/aarontrazona"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Aaron Trazona",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
