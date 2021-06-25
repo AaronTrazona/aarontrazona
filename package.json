@@ -1,13 +1,13 @@
 {
   "name": "aarontrazona",
-  "version": "1.8.2",
+  "version": "1.0.0",
   "description": "Contact Information about Aaron Trazona",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "main": "index.js",
   "bin": {
-    "elijahmanor": "./index.js"
+    "aarontrazona": "./index.js"
   },
   "files": [
     "bin/output"
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AaronTrazona/aarontrazona"
+    "url": "https://github.com/AaronTrazona/aarontrazona.git"
   },
   "keywords": [
     "person",
     "contact"
   ],
-  "author": "Aaron Trazona",
+  "author": "Aaron Trazona <dev.trazona@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
